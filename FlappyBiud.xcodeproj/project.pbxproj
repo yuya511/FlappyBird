@@ -13,6 +13,10 @@
 		863E25C825CBC29800BAB9AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863E25C625CBC29800BAB9AD /* Main.storyboard */; };
 		863E25CA25CBC29800BAB9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863E25C925CBC29800BAB9AD /* Assets.xcassets */; };
 		863E25CD25CBC29800BAB9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863E25CB25CBC29800BAB9AD /* LaunchScreen.storyboard */; };
+		863E25D825CBC9A500BAB9AD /* GameScen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863E25D725CBC9A500BAB9AD /* GameScen.swift */; };
+		863E25DB25CE2F4600BAB9AD /* 13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 863E25DA25CE2F4600BAB9AD /* 13.mp3 */; };
+		863E25DF25CE3E7300BAB9AD /* Lethe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 863E25DE25CE3E7300BAB9AD /* Lethe.mp3 */; };
+		863E25E225CE452F00BAB9AD /* キャンセル2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 863E25E125CE452F00BAB9AD /* キャンセル2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		863E25C925CBC29800BAB9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		863E25CC25CBC29800BAB9AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		863E25CE25CBC29800BAB9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863E25D725CBC9A500BAB9AD /* GameScen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScen.swift; sourceTree = "<group>"; };
+		863E25DA25CE2F4600BAB9AD /* 13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 13.mp3; sourceTree = "<group>"; };
+		863E25DE25CE3E7300BAB9AD /* Lethe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lethe.mp3; sourceTree = "<group>"; };
+		863E25E125CE452F00BAB9AD /* キャンセル2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "キャンセル2.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				863E25C025CBC29800BAB9AD /* AppDelegate.swift */,
 				863E25C225CBC29800BAB9AD /* SceneDelegate.swift */,
+				863E25D725CBC9A500BAB9AD /* GameScen.swift */,
 				863E25C425CBC29800BAB9AD /* ViewController.swift */,
 				863E25C625CBC29800BAB9AD /* Main.storyboard */,
+				863E25DA25CE2F4600BAB9AD /* 13.mp3 */,
+				863E25E125CE452F00BAB9AD /* キャンセル2.mp3 */,
+				863E25DE25CE3E7300BAB9AD /* Lethe.mp3 */,
 				863E25C925CBC29800BAB9AD /* Assets.xcassets */,
 				863E25CB25CBC29800BAB9AD /* LaunchScreen.storyboard */,
 				863E25CE25CBC29800BAB9AD /* Info.plist */,
@@ -125,8 +137,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				863E25CD25CBC29800BAB9AD /* LaunchScreen.storyboard in Resources */,
+				863E25E225CE452F00BAB9AD /* キャンセル2.mp3 in Resources */,
 				863E25CA25CBC29800BAB9AD /* Assets.xcassets in Resources */,
+				863E25DF25CE3E7300BAB9AD /* Lethe.mp3 in Resources */,
 				863E25C825CBC29800BAB9AD /* Main.storyboard in Resources */,
+				863E25DB25CE2F4600BAB9AD /* 13.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863E25D825CBC9A500BAB9AD /* GameScen.swift in Sources */,
 				863E25C525CBC29800BAB9AD /* ViewController.swift in Sources */,
 				863E25C125CBC29800BAB9AD /* AppDelegate.swift in Sources */,
 				863E25C325CBC29800BAB9AD /* SceneDelegate.swift in Sources */,
@@ -296,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.yuya.yamamoto.FlappyBiud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.yuya.yamamoto.FlappyBiud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
